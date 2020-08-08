@@ -1,0 +1,175 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebPage Layout</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        #container{
+           
+            margin: 0px auto;
+            width: 1200px;
+           
+        }
+        #header{
+            height: 80px;
+            background-color: lightgrey;
+            margin-bottom: 15px;
+            
+            color: white;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+ #content{
+    
+ }
+ #content:after{
+     content: '';
+     display: block;
+     clear: both;
+ }
+   #banner{
+      background-color: blue;
+      color: white;
+       height: 450px;
+       font-size: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+       
+   }
+   #section_1
+   {
+      
+       height: 300px;
+       
+   }
+   #ci{
+    float: left;
+    color: white;
+    height: 150px;
+       border-radius: 50%;
+       width: 150px;
+       padding: 35px;
+       margin-left: 65px;
+       margin-top: 30px;
+       font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+      background-color: rgb(22, 137, 14) ;
+   }
+   #section_2{
+      
+       height: 545px;
+   }
+   #leftsidebar{
+    float: left;
+       padding-top: 15px;
+      
+       width: 49%;
+       height: 480px;
+       color: white;
+       background-color: rosybrown;
+       font-size: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }
+   #Rightsidebar
+   {   float: right;
+       height: 480px;
+       width: 49%;
+     
+   }
+   #Practical_1{
+       margin-bottom: 26px;
+       background-color:salmon;
+       height: 147.5px;
+       font-size: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+   }
+   
+   #section_3{
+    
+    height: 390px;
+  }
+  #t{  
+    margin-left:50px ;
+    margin-top: 20px;
+    padding-left: 20px;
+    float: left;
+    width: 18%;
+    height: 300px;
+    background-color:rgba(253, 68, 0, 0.849);
+    font-size: 40px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       color: white;
+   }
+
+
+#footer{
+            height: 80px;
+            background-color: #f197f1a8;
+            color: white;
+            font-size: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 15px;
+        }
+
+    </style>
+</head>
+<body>
+   <div id="container">
+       <div id="header">Header</div>
+       <div id="content">
+           <div id="banner">Banner</div>
+            <div id="section_1"> <h3 style="font-size: 25px;display: flex;
+             justify-content: center;align-items: center;padding-top: 15px;">Section-1</h3> 
+                <div id="ci">Team Member</div>
+                <div id="ci">Team Member</div>
+                <div id="ci">Team Member</div>
+                <div id="ci">Team Member</div>
+            </div>
+            <div id="section_2">
+                <h3 style="font-size: 25px;display: flex;
+                justify-content: center;align-items: center;padding-bottom: 15px;">Section-2</h3> 
+                <div id="leftsidebar">Main content</div> 
+                <div id="Rightsidebar"> 
+                    <div id="Practical_1">Artical-1</div>
+                    <div id="Practical_1">Artical-2</div>
+                    <div id="Practical_1">Artical-3</div>
+               
+            </div></div>
+            <div id="section_3"> <h3 style="font-size: 25px;display: flex;
+                justify-content: center;align-items: center; padding-top: 15px;">Section-3</h3> 
+               <div id="t">Gallery</div>
+               <div id="t">Gallery</div>
+               <div id="t">Gallery</div>
+               <div id="t">Gallery</div>
+                
+            </div>
+
+       </div><h3 style="font-size: 25px;display: flex;
+                justify-content: center;align-items: center; padding-top: 15px;">Section-4</h3> 
+       <div id="footer">Footer</div>
+    </div> 
+</body>
+</html> 
