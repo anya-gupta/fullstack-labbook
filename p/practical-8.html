@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fixed Navigation Bar</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+        }
+        #container{
+            
+           
+            margin: 0px auto;
+            width: 1500px;
+            padding: 5px;
+        }
+
+        
+
+        ul{
+            position: fixed;
+            top: 0;
+            width: 100%;
+            list-style: none;
+            background-color:gray;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        ul li{
+            display: inline-block;
+            
+
+        }
+        ul li a{
+            display: block;
+            text-decoration: none;
+            padding: 20px 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            text-transform: uppercase;  
+            font-weight: bold; 
+            font-size: 20px;    
+            }
+
+        ul li a:hover{
+            background-color:white ;
+            color: black;
+
+        }
+        .content{
+            padding: 20px;
+            margin-top: 100px;
+
+        }
+
+        #ban
+        {
+                background: url(../p/img/emile-perron-xrVDYZRGdw4-unsplash.jpg) no-repeat center center;
+                -webkit-background-size: cover;
+                color: white;
+                width: 100%;
+                height: 620px;
+                font-size: 72px;
+                font-weight: bold;
+                margin-top: 60px;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 5px;
+                margin-bottom: 151px;
+        }
+        .content img{
+            width: 100%;
+            height: 100%;
+        }
+        #main
+        {
+            font-size: 20px;
+            padding-top: 120px;
+            height: 420px;
+        }
+        #main img{
+            border-radius: 50%;
+            margin-left: 120px;
+            margin-top: 50px;
+           }
+           #abt{
+               float: left;
+               margin-top: 50px;
+               width: 49%;
+               background-color: gray;
+               height: 412px;
+
+           }
+        #ab{
+        
+            
+            font-size: 20px;
+            margin-bottom: 50px;
+            padding-top: 80px;
+            
+            
+        }
+
+        .ryt
+     {
+        
+
+       float: right;
+       height: 50px;
+       width: 49%;
+     
+     
+   }
+   #con{
+       font-size: 20px;
+       margin-top: 200px;
+       margin-bottom: 100px;
+       height: 100px;
+       padding-top: 50px;
+       margin-right: 15px;
+      
+   }
+
+   .tec{
+        margin-top: 70px;
+   }
+
+   .p1{
+       
+       margin-top: 50px;
+   }
+   #footer{
+            height: 80px;
+            background-color:pink;
+            color: white;
+            font-size: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 80px;
+        }
+   #tech
+   {
+       margin-top: 600px;
+       font-size: 20px;
+       margin-bottom: 200px;
+       padding-top: 80px;
+       height: 500px;
+   }
+   .p1{
+    background: url(../p/img/p1.jpg);
+    font-size: 40px;   
+    height: 101px;
+    width: 100%;
+    margin-bottom:55px ;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   .p2{
+    background: url(../p/img/p2.jpg);
+    height: 101px;
+    width: 100%;
+    font-size: 40px;
+    margin-bottom:55px ;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   .p3{
+    background: url(../p/img/p3.jpg);
+    height: 101px;
+    width: 100%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+
+   }
+   
+
+   .box a{
+           margin-top: 10px;
+           padding-top: 5px;
+           display:block;
+           text-decoration: none;
+           text-align: center;
+           color: white;
+           background-color: red;
+           width:270px;
+           height: 35px;
+           border-radius: 6px;
+           font-size: 20px;
+       }
+    
+       .box a:hover{
+           background-color:blue;
+       }
+       .box img{
+           width: 100%;
+           height: 150px;
+           border-radius: 8px;
+       }
+        .box{
+            float: left;
+            margin: 15px;
+            margin-top: 10px;
+            border: solid white 15px;
+            width: 270px;
+            background-color:lightgray;
+            border-radius: 10px;
+            margin-left: 50px;
+           }
+           .box p{  padding:0px 10px 0px 10px  ;  
+               text-align:justify;
+           }
+          .box  h5{
+        font-family: sans-serif;
+        text-align: center;
+    }
+
+    </style>
+</head>
+<body>
+    <div id="container">
+    <ul>
+       <li><a href="#">Home</a></li> 
+       <li><a href="#ab">About us</a></li> 
+       <li><a href="#main">Team</a></li>
+       <li><a href="#tech">Technologies</a></li>
+       <li><a href="#footer">Contact</a></li>
+    </ul>
+    <div class="content">
+       
+            <div id="ban">Practical-8</div>
+       
+        
+    </div>
+    <div id="main">
+        <h1 style="text-align: center;">Team Member</h1>
+        <img src="../p/img/1.png">
+        <img src="../p/img/2.png">
+        <img src="../p/img/3.png">
+        <img src="../p/img/9.png">
+    </div>
+
+
+    <div id="ab"> <h1 style="text-align: center;">About Us</h1>
+        <div id="abt">
+    
+         <p><h2>About projects</h2></p><br>
+            <p>
+             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt, itaque quasi enim,
+             nemo nostrum eum tempora deserunt quibusdam, ipsum vel autem? Iste fuga obcaecati iusto esse. 
+             Eligendi temporibus velit eos voluptatibus natus dignissimos obcaecati, neque error! Quia, 
+             obcaecati! Laborum, enim explicabo, mollitia quo consequuntur maxime, eveniet repellat quos eos
+             consectetur excepturi! Saepe dignissimos quisquam qui veniam sit distinctio exercitationem adipisci
+             enim quasi nulla quae esse eveniet, sint consectetur libero asperiores quam numquam eligendi corporis ut
+             Repellendus ut quia similique. Vel sit quisquam nemo exercitationem ipsum, voluptas distinctio velit tempore
+             iusto officia delectus magnam aliquam, officiis fugit optio quos sequi?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Id sunt, itaque quasi enim,
+             nemo nostrum eum tempora deserunt quibusdam, ipsum vel autem? Iste fuga obcaecati iusto esse. 
+             Eligendi temporibus velit eos voluptatibus natus dignissimos obcaecati, neque error! Quia, 
+             obcaecati! Laborum, enim explicabo, mollitia quo consequuntur maxime, eveniet repellat quos eos
+             consectetur excepturi! Saepe dignissimos quisquam qui veniam sit distinctio exercitationem adipisci
+             nemo nostrum eum tempora deserunt quibusdam, ipsum vel autem? Iste fuga obcaecati iusto esse. 
+              
+             
+            </p>
+        </div>
+
+ <div class="ryt">
+     <div class="p1">Practical-1</div>
+     <div class="p2">Practical-2</div>
+     <div class="p3">Practical-3</div>
+    
+</div>
+</div>
+<br>
+
+<div id="tech"><h1 style="text-align: center;">Technologies Used</h1>
+    <div class="tec">
+        <div class="box">
+            <img src="../p/img/html.png" alt="html">
+            <h5>Introduction to HTML</h5>
+            <p>
+             HTML is the markup language that we use to structure and give meaning to our web content, for example defining paragraphs,
+              headings, and data tables, or embedding images and videos in the page.structure and give meaning to our web content </p><a  href="../p/practical-5html.html">Read more</a>
+        
+            
+        </div>
+        <div class="box">
+         <img src="../p/img/css..jpg" alt="CSS">
+         <h5>Introduction to CSS</h5>
+         <p>
+             CSS stands for Cascading Style Sheets with an emphasis placed on “Style.” While HTML is used to structure a web 
+             document (defining things like headlines and paragraphs, and allowing you to embed images, video, and other media).</p><a href="../p/practical5-css.html">Read more</a>
+         
+         
+     </div>
+     <div class="box">
+         <img src="../p/img/js.jpg" alt="js">
+         <h5>Introduction to JavaScript</h5>
+         <p>
+             JavaScript  often abbreviated as JS, is a programming language that conforms
+             to the ECMAScript specification. JavaScript is high-level, often just-in-time compiled, and
+             multi-paradigm. It has curly-bracketmulti-paradigm. It has curly-bracket .</p><a href="../p/practical5-js.html">Read more</a>
+         
+     </div>
+     <div class="box">
+         <img src="../p/img/bootstrap.jpg" alt="bootstrap">
+         <h5 >Introduction to Bootstrap</h5>
+         <p>
+             Bootstrap is a free and open source front end development framework for the creation of websites and web apps.
+              The Bootstrap framework is built on HTML, CSS,multi-paradigm. It has curly-bracket and JavaScript (JS) to facilitate the development.</p><a href="../p/practical5-bootstrape.html">Read more</a>
+         
+     </div>
+    </div>
+</div>
+<br>
+
+<div class="con"><h1 style="text-align: center;">Contact</h1>
+    
+    <div id="footer"><h6>Website template for practical-8 &copy; <a href="https://www.beta-labs.in/">Beta-Labs</a><br>
+        <p style="text-align: center;"><a href="#">Back to top</a></p></h6>
+        
+    </div>
+    
+    
+
+</div>
+
+</div>
+
+
+
+
+    
+</body>
+</html>
