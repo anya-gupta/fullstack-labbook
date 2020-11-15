@@ -49,7 +49,7 @@ function setGreeting() {
     document.body.style.backgroundImage = 'url("../p/img/aft.jpg")';
     greeting.innerHTML = "Good Afternoon";
   } else {
-    document.body.style.backgroundImage = 'url(""../p/img/eve.jpg"")'
+    document.body.style.backgroundImage = 'url("../p/img/eve.jpg")'
     greeting.innerHTML = "Good Evening";
     document.body.style.color = "white";
   }
