@@ -5,7 +5,7 @@
 }
 body{
     font-family: serif;
-    background-color: darkgray;
+    background-color: grey;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -48,7 +48,7 @@ form input{
 form button{
     width: 120px;
     height: 35px;
-    background-color: crimson;
+    background-color: rgb(102, 10, 28);
     color: white;
     border-radius: 10px;
     outline: none;
@@ -78,7 +78,7 @@ form button{
     width: 120px;
     height: 100%;
     position: absolute;
-    background-color: crimson;
+    background-color: rgb(107, 9, 28);
     transition: 1s;
 }
 .progress::after{
@@ -89,5 +89,5 @@ form button{
     border-top: 20px solid transparent;
     border-bottom: 20px solid transparent;
     right: -20px;
-    border-left: 20px solid crimson;
+    border-left: 20px solid rgb(82, 5, 20);
 }
